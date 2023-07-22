@@ -1,5 +1,24 @@
 #AUTHOR - ERICO RODRIGUES - TEST MLE
 
+#################
+#  FLASK SETUP  #
+#################
+# . fl_env/bin/activate --> Activates Env.
+# pip3 list
+# pip3 freeze > requirements.txt
+###############
+#  FLASK RUN  #
+###############
+# cd $home
+# export FLASK_APP="file.py"
+# flask run
+##############
+# GIT UPDATE #
+##############
+# git add .
+# git commit -m 'NEW COMMIT TEXT'
+# git push origin main
+
 from flask import Flask
 import requests
 import logging
